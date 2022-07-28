@@ -1,0 +1,66 @@
+body {
+  background-color: #3ab4f2 !important;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: capitalize;
+}
+:root {
+  --color: #0078aa;
+}
+button,
+input,
+li,
+a {
+  font-family: "Poppins", sans-serif !important;
+  text-transform: capitalize;
+}
+.app {
+  width: fit-content;
+  margin-top: 60px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.app .title {
+  color: white;
+}
+.app .title h1 {
+  font-weight: bolder;
+}
+.app .title p {
+  font-weight: 200;
+}
+.app .info img {
+  width: 400px;
+  height: 220px;
+}
+.app .form input {
+  padding: 10px 20px;
+  font-weight: 500;
+  border: none;
+  border-bottom: 2px solid var(--color);
+}
+.app .form input:focus {
+  outline: none;
+  color: var(--color);
+}
+.app .form button {
+  padding: 10px 20px;
+  font-weight: 500;
+  background-color: var(--color);
+  color: white;
+  border: none;
+}
+.app .form .country_name {
+  font-weight: bold;
+  font-size: 24px;
+}
+ul li span {
+  font-weight: 500;
+  color: black;
+}
+ul li {
+  color: rgb(49, 49, 49);
+}
+.error p {
+  color: red;
+}

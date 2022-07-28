@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Css/Style.css">
+  <link rel="stylesheet" href="./Css/bootstrap.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <title>County Guide App</title>
+</head>
+<!-- https://restcountries.com/v3.1/name/deutschland -->
+
+<body>
+  <div class="app text-center">
+    <div class="container">
+      <div class="title mb-4">
+        <h1>Welcome, To County Guide App</h1>
+        <p>Here We Could Show You All Information About That Country You Looking For :)</p>
+      </div>
+      <div class="error text-center mt-3 mb-3">
+        <p></p>
+      </div>
+      <div class="form bg-white rounded-3 p-5 mb-5 mt-4">
+        <div class="search row">
+          <div class="col-12 col-md-9">
+            <input type="text" id="country" placeholder="country name" class="w-100">
+          </div>
+          <div class="col-12 col-md-3 mt-3 mt-md-0">
+            <button id="search" class="w-100 rounded-pill">Search</button>
+          </div>
+        </div>
+        <div class="info mt-5">
+          <div class="flag">
+          </div>
+          <div class="country_name mt-2"></div>
+          <div class="country_info text-start">
+            <ul class="list-unstyled">
+              <!-- <li><span>capital</span> : berlin</li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./Js/Main.js"></script>
+  <script src="./Js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
